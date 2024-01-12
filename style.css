@@ -37,6 +37,8 @@ nav li {
 }
 
 .primary-btn {
+    font-size: 20px;
+    color: aliceblue;
     background-color: rgb(248, 88, 13);
     border: 0;
     padding: 15px 35px;
@@ -53,35 +55,116 @@ nav li {
 /* about part */
 .about {
     width: 800px;
-   margin: 50px auto;
-   padding: 100px;
-   background-color: #FFF8F3;
+    margin: 50px auto;
+    padding: 100px;
+    background-color: #fde6d5;
 }
-.about-text{
+
+.about-text {
     text-align: center;
 }
-.about-me{
+
+.about-me {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     text-align: center;
 }
 
 /* what i do part */
 
-.do-work{
+.do-work {
     max-width: 1300px;
     margin: 0 auto;
+    background-color: #fde6d5;
+    padding-bottom: 30px;
 }
-.work-text{
+
+.work-text {
     text-align: center;
     padding: 100px;
 }
-.Card{
+
+.Card {
     display: flex;
+    justify-content: space-around;
 }
-.Card .do-card{
+
+.Card .do-card {
+    max-width: 200px;
     text-align: center;
     box-shadow: 4px 4px 4px slategrey;
+    padding: 30px;
+}
+
+/* Resume Part */
+.resume {
+    max-width: 1300px;
+    margin: 80px auto;
+    text-align: center;
+    background-color: #fde6d5;
+    padding: 30px 0 30px 0;
+}
+
+.resume>h1 {
+    font-size: 50px;
+}
+
+.resume-gellary {
+    display: flex;
     justify-content: space-between;
+    text-align: left;
     padding: 50px;
+}
+
+.education {
+    width: 600px;
+    padding: 20px;
+}
+
+.ecperience {
+    width: 600px;
+    padding: 20px;
+}
+
+/* footer part */
+.foot {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fde6d5;
+}
+
+.footer-text {
+    width: 400px;
+    padding: 100px;
+}
+
+.footer-text h1 {
+    font-size: 40px;
+}
+
+.footer-text p {
+    font-size: 20px;
+}
+
+..footer-text img {
+    margin-right: 200px;
+    width: 24px;
+    height: 24px;
+}
+
+.foot-table {
+    width: 400px;
+    padding: 100px;
+}
+.foot-table h1{
+    font-size: 40px;
+}
+.foot-table input, textarea{
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 10px;
 }
