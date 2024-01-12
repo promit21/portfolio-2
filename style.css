@@ -1,6 +1,11 @@
 /* Header Part */
+
 .header-container {
     background-color: antiquewhite;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -46,7 +51,7 @@ nav li {
 }
 
 .header-profile img {
-    height: 300px;
+    height: 500px;
     padding: 0 100px;
 }
 
