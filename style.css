@@ -59,7 +59,7 @@ nav li {
 
 /* about part */
 .about {
-    width: 800px;
+    max-width: 800px;
     margin: 50px auto;
     padding: 100px;
     background-color: #fde6d5;
@@ -163,13 +163,71 @@ nav li {
     width: 400px;
     padding: 100px;
 }
-.foot-table h1{
+
+.foot-table h1 {
     font-size: 40px;
 }
-.foot-table input, textarea{
+
+.foot-table input,
+textarea {
     padding: 20px;
     font-size: 20px;
     margin-bottom: 10px;
     border: 0;
     border-radius: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .header-container{
+        width: auto;
+        flex-direction: column;
+    }
+    .header-text{
+        flex-direction: column;
+    }
+    .header-content {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 0;
+        width: 300px;
+
+    }
+    .about-text{
+        padding: 5px;
+    }
+    .about-me{
+        flex-direction: column;
+    }
+
+    .work-text {
+        width: 250px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .Card{
+        flex-direction: column;
+        padding: 0;
+    }
+    .do-card{
+        margin: 0 auto;
+    }
+    .resume h1{
+        font-size: 20px;
+        width: 300px;
+    }
+    .resume-gellary{
+        flex-direction: column;
+    }
+    .education{
+        width: 300px;
+        padding: 0;
+    }
+    .ecperience{
+        width: 300px;
+        padding: 0;
+    }
 }
